@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".BLUETOOTH">
+
+    <TextView
+        android:id="@+id/ststusbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+
+<ImageView
+    android:id="@+id/bluetoothIv"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:contentDescription="@string/todo" />
+
+
+    <Button
+        android:id="@+id/onBt"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:minWidth="200dp"
+        android:text="@string/turn_on" />
+
+    <Button
+        android:id="@+id/offBt"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:minWidth="200dp"
+        android:text="@string/turn_off" />
+
+    <Button
+        android:id="@+id/bconnectbtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:minWidth="200dp"
+        android:text="connect to chrono" />
+
+</LinearLayout>
